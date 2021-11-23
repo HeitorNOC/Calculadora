@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: white;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40%;
+    padding-top: 7%;
+    font-size: 1.5rem;
+}
+
+.calc-container {
+    box-shadow: 0 0 1em black;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.calc-container button {
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
+.calc {
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+button {
+    padding: 40px;
+    display: block;
+    align-items: center;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.operacoes-up button {
+    padding: 40px;
+    padding-right: 41px;
+    background: gray;
+}
+
+.igual {
+    position: absolute;
+    padding: 164px 40px;
+    margin-left: 8px;
+    background: cornflowerblue;
+}
+
+.ponto {
+    padding: 40px 44px;
+}
+
+.clean {
+    padding: 40px 38px;
+}
+
+.resultado {
+    padding: 30px 20px;
+}
+
+.resultado h3 {
+    text-align: end;
+    font-size: 2.3rem;
+}
+
+.back {
+    margin-left: -0.5px;
+}
+
+.operacoes-up button:hover {
+    background: black;
+    color: white;
+}
+
+.col-1 button:hover {
+    background: black;
+    color: white;
+}
+
+.col-2 button:hover {
+    background: black;
+    color: white;
+}
+
+.col-3 button:hover {
+    background: black;
+    color: white;
+}
+
+.col-4 button:hover {
+    background: black;
+    color: white;
+}
+
+.col-1 button.igual:hover {
+    background: crimson;
+}
